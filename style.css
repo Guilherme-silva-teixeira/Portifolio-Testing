@@ -22,7 +22,7 @@ header #container
 
 header #container::after
 {
-    margin-top: 27px;
+    margin-top: 35px;
     position: absolute;
     content: "";
     height: 1px;
@@ -32,14 +32,15 @@ header #container::after
 
 #container a
 {
+    position: relative;
     text-decoration: none;
     padding-right: 1%;
     padding-left: 1%;
-    font-family: 'montserrat',sans-serif;
+    font-family: 'poppins',sans-serif;
     letter-spacing: 0.3px;
+    font-weight: 300;
     color: #000;
     transition: 0.7s ease-in-out;
-    padding-bottom: 1px;
     position: relative;
 }
 
@@ -86,10 +87,11 @@ header #container::after
 section #container #title
 {
     font-family: 'poppins',sans-serif;
-    font-weight: 900;
+    font-weight: 300;
     width: 500px;
     font-size: 37px;
     margin-left: 1%;
+    transition: 0.3s ease-in-out;
 }
 
 @media screen and (max-width: 700px)

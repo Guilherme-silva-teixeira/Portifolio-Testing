@@ -15,10 +15,19 @@ header #container
 {
     height: 27px;
     width: 100%;
-    border: 1px solid #7a7a7a;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+header #container::after
+{
+    margin-top: 27px;
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 70%;
+    background: #777;
 }
 
 #container a
@@ -40,7 +49,7 @@ header #container
     {
         padding-left: 2%;
         padding-right: 2%;
-        transition: 0.7s ease-in-out;
+        transition: 0.3s ease-in-out;
     }
 }
 
@@ -72,4 +81,35 @@ header #container
 #container a:nth-child(3):hover::after
 {
     width: 63px;
+}
+
+section #container #title
+{
+    font-family: 'poppins',sans-serif;
+    font-weight: 900;
+    width: 500px;
+    font-size: 37px;
+    margin-left: 1%;
+}
+
+@media screen and (max-width: 700px)
+{
+    #container #title-box h1
+    {
+        width: 400px;
+        font-size: 27px;
+        transition: 0.3s ease-in-out;
+        margin-left: 1%;
+    }
+}
+
+@media screen and (min-width: 701px) and (max-width: 100px)
+{
+    #container #title-box h1
+    {
+        width: 500px;
+        font-size: 37px;
+        margin-left: 1%;
+        transition: 0.3s ease-in-out;
+    }
 }

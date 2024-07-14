@@ -42,7 +42,7 @@ header #container::after
     margin-top: 35px;
     position: absolute;
     content: "";
-    height: 1px;
+    height: 0.7px;
     width: 70%;
     background: #777;
 }

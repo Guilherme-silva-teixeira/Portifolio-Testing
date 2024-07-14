@@ -126,7 +126,7 @@ section #container #title
     font-weight: 300;
     width: 500px;
     font-size: 37px;
-    margin-left: 1%;
+    margin-left: 3%;
     transition: 0.3s ease-in-out;
 }
 
@@ -137,7 +137,7 @@ section #container #title
         width: 400px;
         font-size: 27px;
         transition: 0.3s ease-in-out;
-        margin-left: 1%;
+        margin-left: 3%;
     }
 }
 
@@ -147,7 +147,7 @@ section #container #title
     {
         width: 500px;
         font-size: 37px;
-        margin-left: 1%;
+        margin-left: 3%;
         transition: 0.3s ease-in-out;
     }
 }
@@ -159,7 +159,7 @@ section #container #title-box #upertitle h3
     width: 500px;
     font-size: 21px;
     margin-top: 7px;
-    margin-left: 1%;
+    margin-left: 3%;
     margin-bottom: 4.9px;
     transition: 0.3s ease-in-out;
 }

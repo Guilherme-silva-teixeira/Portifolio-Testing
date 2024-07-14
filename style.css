@@ -7,14 +7,27 @@
 
 header
 {
-    height: 10vh;
+    height: 3vh;
     width: 100%;
+    margin-top: 3px;
+    margin-bottom: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header #container
 {
+    padding: 1%;
     height: 27px;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#container #links
+{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,6 +35,10 @@ header #container
 
 header #container::after
 {
+    margin-left: 10.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 35px;
     position: absolute;
     content: "";
@@ -34,8 +51,8 @@ header #container::after
 {
     position: relative;
     text-decoration: none;
-    padding-right: 1%;
-    padding-left: 1%;
+    padding-right: 4%;
+    padding-left: 4%;
     font-family: 'poppins',sans-serif;
     letter-spacing: 0.3px;
     font-weight: 300;
@@ -48,8 +65,8 @@ header #container::after
 {
     #container a
     {
-        padding-left: 2%;
-        padding-right: 2%;
+        padding-left: 3%;
+        padding-right: 3%;
         transition: 0.3s ease-in-out;
     }
 }
@@ -82,6 +99,25 @@ header #container::after
 #container a:nth-child(3):hover::after
 {
     width: 63px;
+}
+
+header #translate
+{
+    height: 27px;
+    width: 27px;
+    margin-top: 6.7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+}
+
+header #translate:hover
+{
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 4.9px;
+    transition: 0.3s ease-in-out;
 }
 
 section #container #title

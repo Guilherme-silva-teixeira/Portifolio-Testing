@@ -151,3 +151,15 @@ section #container #title
         transition: 0.3s ease-in-out;
     }
 }
+
+section #container #title-box #upertitle h3
+{
+    font-family: 'poppins',sans-serif;
+    font-weight: 300;
+    width: 500px;
+    font-size: 21px;
+    margin-top: 7px;
+    margin-left: 1%;
+    margin-bottom: 4.9px;
+    transition: 0.3s ease-in-out;
+}
